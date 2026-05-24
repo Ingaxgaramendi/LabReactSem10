@@ -129,27 +129,27 @@ npm run dev
 
 ---
 
+## 🧹 Proyecto limpio
+
+![Proyecto limpio](./docs/proyectolimpio.png)
+
 ## 🧩 Componente creado
 
-![Componente](./capturas/componentecard.png)
+![Componente](./docs/componentecard.png)
 
 ---
 
 ## 🔄 Props enviadas al componente
 
-![Props](./capturas/propsenvios.png)
+![Props](./docs/propsenvios.png)
 
 ---
-
-## 🧹 Proyecto limpio
-
-![Proyecto limpio](./capturas/proyectolimpio.png)
 
 ---
 
 ## ⚙️ Uso de estados y eventos
 
-![Estados](./capturas/usodeestados.png)
+![Estados](./docs/usodeestados.png)
 
 ---
 
