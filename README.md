@@ -9,8 +9,7 @@
 ### Huancca Yojhan
 
 Proyecto desarrollado con React + Vite como parte del curso de Desarrollo Frontend.
-
-La aplicación simula una pequeña tienda virtual de productos para mascotas, aplicando conceptos básicos de React como:
+aplicando conceptos básicos de React como:
 
 - Componentes
 - Props
@@ -153,6 +152,86 @@ npm run dev
 ![Estados](./capturas/usodeestados.png)
 
 ---
+
+# Carbajal Carlos
+
+## 1. Proyecto creado con React + Vite
+
+Se inició el proyecto usando React con Vite.
+
+![React Vite](docs/react.png)
+
+---
+
+## 2. Proyecto limpio
+
+Se eliminó la plantilla inicial de Vite y se dejó una base limpia para comenzar el desarrollo.
+
+![Home limpio](docs/home_limpio.png)
+
+---
+
+## 3. Primera versión de la pantalla principal
+
+Se creó la primera vista de la aplicación CineSpoilerS.
+
+![Home v0](docs/home%20v_0.png)
+
+---
+
+## 4. Mejora visual de la interfaz
+
+Se aplicó una interfaz oscura, minimalista y más atractiva.
+
+![Home v1](docs/home_v1.png)
+
+---
+
+## 5. Interfaz principal mejorada
+
+Se mejoró la portada principal con mejor distribución visual.
+
+![Home v2](docs/home_v2.png)
+
+---
+
+## 6. Catálogo de películas
+
+Se agregó la cartelera de películas disponibles para comprar tickets.
+
+![Home v3](docs/home_v3.png)
+
+---
+
+## 7. Componente Card
+
+Se creó un componente reutilizable para mostrar cada película como una tarjeta.
+
+![Componente Card](docs/CARD.png)
+
+---
+
+## 8. Envío de props
+
+Se evidencia el envío de datos desde el componente padre hacia el componente hijo usando props.
+
+![Props](docs/PROPS.png)
+
+---
+
+## 9. Manejo de estado
+
+Se utilizó `useState` para manejar el estado del carrito de compras.
+
+![Evidencia estado](docs/EVIDENCIA_ESTADO.png)
+
+---
+
+## 10. Carrito de compras
+
+El carrito muestra los tickets agregados, la cantidad y el total a pagar.
+
+![Carrito de compras](docs/carrito_compras.png)
 
 # 📚 Conceptos aplicados
 
