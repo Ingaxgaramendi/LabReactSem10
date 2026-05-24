@@ -4,3 +4,6 @@
 [submodule "PetcareReact"]
 	path = PetcareReact
 	url = https://github.com/Ingaxgaramendi/PetcareReact.git
+[submodule "React_Cinespoilers"]
+	path = React_Cinespoilers
+	url = https://github.com/Gonnarch/React_Cinespoilers
