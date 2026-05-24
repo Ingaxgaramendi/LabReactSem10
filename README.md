@@ -1,135 +1,96 @@
-# CineSpoilerS
+# 🐾 Laboratorio Semana 10
 
-Proyecto desarrollado con React, TypeScript y Vite.
+## Ingredientes :
 
-## Datos del estudiante
+### Rivera Anderson
 
-- Nombre: Yojhan Huanca Yucra
-- Tema: Componentes, props y manejo de estado en React
+### Carbajal Carlos
 
-## Descripcion del proyecto
+### Huancca Yojhan
 
-CineSpoilerS es una aplicacion web sencilla creada para practicar React. En el proyecto se implemento un componente `Card`, el cual recibe informacion mediante props y muestra un contador de likes usando el hook `useState`.
+Proyecto desarrollado con React + Vite como parte del curso de Desarrollo Frontend.
 
-## Tecnologias utilizadas
+La aplicación simula una pequeña tienda virtual de productos para mascotas, aplicando conceptos básicos de React como:
 
-- React
-- TypeScript
-- Vite
-- CSS
+- Componentes
+- Props
+- Estados
+- Eventos
+- Renderizado dinámico
 
-## Funcionalidades
+---
 
-- Creacion de una aplicacion React con Vite.
-- Configuracion del favicon de la pagina.
-- Creacion del componente `Card`.
-- Envio de datos al componente usando props.
-- Manejo de estado con `useState`.
-- Boton interactivo para aumentar likes.
+# 🚀 Tecnologías utilizadas
 
-## Evidencias
+- ⚛️ React
+- ⚡ Vite
+- 🟨 JavaScript
+- 🎨 CSS
 
-### 1. Vista inicial del proyecto
+---
 
-Se muestra la primera version de la aplicacion ejecutandose en `localhost:5173`.
+# 📦 Instalación
 
-![Vista inicial](docs/01.png)
+## Clonar el repositorio
 
-### 2. Favicon configurado
-
-Se agrego un icono personalizado en la pestana del navegador usando un archivo SVG en la carpeta `public`.
-
-![Favicon](docs/02favicon.png)
-
-### 3. Componente Card
-
-Se creo una tarjeta reutilizable para mostrar el nombre y la descripcion.
-
-![Componente Card](docs/03.compoentes.png)
-
-### 4. Uso de props
-
-El componente `Card` recibe los valores `title` y `description` desde `App.tsx`.
-
-![Props en Card](docs/04.carpProps.png)
-
-### 5. Manejo de estado
-
-Se agrego `useState` para controlar el contador de likes. Cada tarjeta tiene su propio estado y aumenta al presionar el boton.
-
-![Manejo de estado](docs/05.manejostado.png)
-
-## Codigo principal
-
-### Componente Card
-
-```tsx
-import { useState } from 'react';
-
-type CardProps = {
-  title: string;
-  description: string;
-};
-
-function Card({ title, description }: CardProps) {
-  const [likes, setLikes] = useState(0);
-
-  const handleClick = () => {
-    setLikes(likes + 1);
-  };
-
-  return (
-    <div className="card">
-      <h3>{title}</h3>
-      <p>{description}</p>
-      <button className="button" onClick={handleClick}>
-        Likes {likes}
-      </button>
-    </div>
-  );
-}
-
-export default Card;
+```bash
+git clone https://github.com/Ingaxgaramendi/PetcareReact.git
 ```
 
-### Uso del componente
+## Entrar al proyecto
 
-```tsx
-import Card from './components/card';
-
-function App() {
-  return (
-    <main>
-      <h1>CineSpoilerS</h1>
-      <Card title="Yojhan Huanca Yucra" description="Frontend Developer" />
-      <Card title="Yojhan Huanca Yucra" description="Frontend Developer" />
-    </main>
-  );
-}
-
-export default App;
+```bash
+cd PetcareReact
 ```
 
-## Ejecucion del proyecto
-
-Instalar dependencias:
+## Instalar dependencias
 
 ```bash
 npm install
 ```
 
-Ejecutar en modo desarrollo:
+## Ejecutar el proyecto
 
 ```bash
 npm run dev
 ```
 
-Generar version de produccion:
+---
 
-```bash
-npm run build
-```
+# 📸 Capturas del proyecto
 
-## Conclusion
+## 🧩 Componente creado
 
-Con este trabajo se practico la creacion de componentes en React, el uso de props para enviar informacion y el manejo de estado con `useState` para crear una interaccion dentro de la interfaz.
+![Componente](./capturas/componentecard.png)
+
+---
+
+## 🔄 Props enviadas al componente
+
+![Props](./capturas/propsenvios.png)
+
+---
+
+## 🧹 Proyecto limpio
+
+![Proyecto limpio](./capturas/proyectolimpio.png)
+
+---
+
+## ⚙️ Uso de estados y eventos
+
+![Estados](./capturas/usodeestados.png)
+
+---
+
+# 📚 Conceptos aplicados
+
+✅ Componentes React  
+✅ Props  
+✅ useState  
+✅ Eventos con onClick  
+✅ Renderizado dinámico  
+✅ Estructura limpia del proyecto  
+✅ Git y GitHub
+
+---
