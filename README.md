@@ -33,31 +33,41 @@ CineSpoilerS es una aplicacion web sencilla creada para practicar React. En el p
 
 Se muestra la primera version de la aplicacion ejecutandose en `localhost:5173`.
 
-![Vista inicial](docs/01.png)
+Ruta de imagen: `docs/01.png`
+
+![Vista inicial](https://raw.githubusercontent.com/Ingaxgaramendi/LabReactSem10/main/docs/01.png)
 
 ### 2. Favicon configurado
 
 Se agrego un icono personalizado en la pestana del navegador usando un archivo SVG en la carpeta `public`.
 
-![Favicon](docs/02favicon.png)
+Ruta de imagen: `docs/02favicon.png`
+
+![Favicon](https://raw.githubusercontent.com/Ingaxgaramendi/LabReactSem10/main/docs/02favicon.png)
 
 ### 3. Componente Card
 
 Se creo una tarjeta reutilizable para mostrar el nombre y la descripcion.
 
-![Componente Card](docs/03.compoentes.png)
+Ruta de imagen: `docs/03.compoentes.png`
+
+![Componente Card](https://raw.githubusercontent.com/Ingaxgaramendi/LabReactSem10/main/docs/03.compoentes.png)
 
 ### 4. Uso de props
 
 El componente `Card` recibe los valores `title` y `description` desde `App.tsx`.
 
-![Props en Card](docs/04.carpProps.png)
+Ruta de imagen: `docs/04.carpProps.png`
+
+![Props en Card](https://raw.githubusercontent.com/Ingaxgaramendi/LabReactSem10/main/docs/04.carpProps.png)
 
 ### 5. Manejo de estado
 
 Se agrego `useState` para controlar el contador de likes. Cada tarjeta tiene su propio estado y aumenta al presionar el boton.
 
-![Manejo de estado](docs/05.manejostado.png)
+Ruta de imagen: `docs/05.manejostado.png`
+
+![Manejo de estado](https://raw.githubusercontent.com/Ingaxgaramendi/LabReactSem10/main/docs/05.manejostado.png)
 
 ## Codigo principal
 
